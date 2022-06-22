@@ -1,5 +1,6 @@
 public class Application {
     public static void main(String[] args) {
-        System.out.println("Hello everybody...");
+        var helloEverybody = "Hello Everybody";
+        System.out.printf("%s...", helloEverybody);
     }
 }
